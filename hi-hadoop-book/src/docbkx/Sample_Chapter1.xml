@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xml:id="Sample_Chapter1" xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:m="http://www.w3.org/1998/Math/MathML"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:db="http://docbook.org/ns/docbook">
+
+    <title>Sample Chapter 1</title>
+    <section>
+        <title>section 1</title>
+        <para>
+            Figure
+        </para>
+            <figure id="sample-figure">
+                <title>Old Mac</title>
+                <graphic fileref="macintosh_classic1.jpg" />
+            </figure>
+    </section>
+
+    <!-- nested section -->
+    <sect1>
+        <title>sect1</title>
+        <para>
+            section 1 <sbr/>
+            sample link : <link xlink:href="https://github.com/hadoop-illuminated/sexy-docbooks">Sexy docbooks provided by</link>
+            <link xlink:href="http://hadoopilluminated.com/">Hadoop illuminated.com</link>
+        </para>
+        <sect2>
+            <title>sect1.1</title>
+            <para>
+                section 1.1
+            </para>
+        </sect2>
+    </sect1>
+</chapter>
