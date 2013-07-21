@@ -12,7 +12,6 @@ files:
     src/docbks/css  <--- css files
     images   <--- image files
 
-
 You will need mvn to generate docbooks html
 Download maven from http://maven.apache.org/
 Once you have maven installed, use the following command to generate docbooks output
@@ -26,6 +25,8 @@ output files are locted here:
     target/site/singlepage  <--- generated html book (single page)
 
 you can just copy the directory 'target/site' to your website.
+
+That is it!
 
 Now you can start writing your book by editing files in src/docbkx dir
 
