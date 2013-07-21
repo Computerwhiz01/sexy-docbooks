@@ -3,6 +3,11 @@ sexy-docbooks
 
 Docbook templates that look 'nice'
 
+Good looking docbooks:
+---------------------
+    - http://hadoopilluminated.com/hadoop_book/index.html
+    - http://book.realworldhaskell.org/read/
+
 template 1 : hi-hadoop-book
 ---------------------------
 This template is from 'hadoop illuminated' book (http://hadoopilluminated.com/)
@@ -26,8 +31,7 @@ output files are locted here:
 
 you can just copy the directory 'target/site' to your website.
 
-That is it!
-
+That is it!  
 Now you can start writing your book by editing files in src/docbkx dir
 
 Customizing html output:
